@@ -1,32 +1,8 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
 
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
+
 
 header {
    position: relative;
@@ -40,7 +16,7 @@ header {
    overflow: hidden;
 }
 
-/* vertically center banner section */
+
 header:before {
    content: '';
    display: inline-block;
@@ -82,7 +58,7 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
+
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -97,7 +73,7 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
-/* scrolldown link */
+
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -127,7 +103,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 outline: none;
 }
 
-/* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
@@ -141,14 +116,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .opaque { background-color: #333; }
 
-/* hide toggle button */
+
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;
    width: auto;
 
-   /* center align the menu */
    text-align: center;
 }
 ul#nav li {
@@ -158,7 +132,7 @@ ul#nav li {
    display: inline-block;
 }
 
-/* Links */
+
 ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
@@ -181,9 +155,8 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: rgb(60, 124, 243); }
 
 
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
+
+/* About Section */
 
 #about {
    background: #2B2B2B;
@@ -230,9 +203,7 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 }
 
 
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
+/*  Resume Section */
 
 #resume {
    background: #fff;
@@ -267,7 +238,7 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #1a8ff5;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -280,7 +251,7 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
+
 /*	Skill Bars
 /*----------------------------------------------*/
 
@@ -303,7 +274,7 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #27a8f3;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -317,42 +288,53 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #033e97;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.javascript {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.react{
+  	width: 70%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.node {
+  	width: 90%;
+  	-moz-animation: node 2s ease;
+  	-webkit-animation:node 2s ease;
 }
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
+.html {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.graphql {
+  	width: 60%;
+  	-moz-animation: graphql 2s ease;
+  	-webkit-animation: graphql 2s ease;
+}
+
+.mongodb{
+   width: 60%;
+   -moz-animation: mongodb 2s ease;
+   -webkit-animation: mongodb 2s ease;
+}
+.mysql{
+   width: 60%;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -633,43 +615,8 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
 
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
 
 /*	Blockquotes */
 #testimonials blockquote {
