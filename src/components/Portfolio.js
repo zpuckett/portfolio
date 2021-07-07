@@ -6,7 +6,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>My Apps. Open link in new tap to view.</h1>
+          <h1>My Apps. Open link in new tab to view.</h1>
           <br></br>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
