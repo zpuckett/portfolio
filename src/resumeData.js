@@ -11,18 +11,18 @@ let resumeData = {
         },
         {
           name:"github",
-          url:"http://github.com/zpuckett",
+          url:"https://github.com/zpuckett",
           className:"fa fa-github"
         },
         {
           name:"twitter",
-          url:"http://twitter.com/zpdrums",
+          url:"https://twitter.com/zpdrums",
           className:"fa fa-twitter"
         }
       ],
     aboutme:"I am currently finishing Vanderbilt Coding Bootcamp to be a full-stack devloper. I have a strong work ethic and a drive to be the best I can be.",
     address:"Thpmsons's Station, TN",
-    website:"http://github.com/zpuckett",
+    website:"https://github.com/zpuckett",
     
     
     skillsDescription:"My Skills include:",
@@ -57,7 +57,7 @@ let resumeData = {
       name:"YayNayz",
       description:"Voting/Polling App.",
       imgurl:"images/portfolio/yaynayz.gif",
-      url:"http://yaynayz.com"
+      url:"https://yaynayz.com"
       },
       {
       name: "Riddle Me This",
