@@ -21,8 +21,8 @@ let resumeData = {
         }
       ],
     aboutme:"I am currently finishing Vanderbilt Coding Bootcamp to be a full-stack devloper. I have a strong work ethic and a drive to be the best I can be.",
-    address:"Thpmsons's Station, TN",
-    website:"https://github.com/zpuckett",
+    address:"Thompsons's Station, TN",
+    website:"http://github.com/zpuckett",
     
     
     skillsDescription:"My Skills include:",
