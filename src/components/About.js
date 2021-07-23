@@ -36,6 +36,7 @@ export default class About extends Component {
                     <a href="https://github.com/zpuckett" target="_blank">
                     <span>{resumeData.website}</span>
                     </a>
+                    <br></br>
                     <a href="mailto:zpuckettdesign@gmail.com" target="_blank">
                     <span>{resumeData.email}</span>
                     </a>
