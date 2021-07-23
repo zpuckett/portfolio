@@ -24,6 +24,7 @@ let resumeData = {
     address:"Thompsons's Station, TN",
     website:"http://github.com/zpuckett",
     email:"zpuckettdesign@gmail.com",
+    resume: "https://docs.google.com/document/d/1oAlFOZyMWUIIzqgLZl7lbeILCraZL80hd8x8ms-gZlc/edit?usp=sharing",
     
     
     skillsDescription:"My Skills include:",
