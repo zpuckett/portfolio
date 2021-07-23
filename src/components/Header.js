@@ -15,7 +15,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#portfolio">Apps</a></li>
                <li><a className="smoothscroll" href="#skill">Skills</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
-               <li><a className="smoothscroll" onClick={()=> window.open(`${item.resume}`)} target="_blank">Resume</a></li>
+               <li><a className="smoothscroll" href="#resume">Resume</a></li>
             </ul>
          </nav>
 
