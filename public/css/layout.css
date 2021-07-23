@@ -444,14 +444,14 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #fff;
+   color:black;
    height: 30px;
    width: 30px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
 
-   opacity: 0;
+   opacity: 20;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 
