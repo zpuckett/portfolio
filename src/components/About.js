@@ -41,7 +41,7 @@ export default class About extends Component {
                     <span>{resumeData.email}</span>
                     </a>
                     <br></br>
-                    <a href="https://docs.google.com/document/d/1oAlFOZyMWUIIzqgLZl7lbeILCraZL80hd8x8ms-gZlc/edit?usp=sharing" target="_blank">
+                    <a href="https://docs.google.com/document/d/1oAlFOZyMWUIIzqgLZl7lbeILCraZL80hd8x8ms-gZlc/edit?usp=sharing" target="_blank" style="font size-xxl">
                     Resume
                     </a>
        					   </p>
