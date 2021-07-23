@@ -20,9 +20,10 @@ let resumeData = {
           className:"fa fa-twitter"
         }
       ],
-    aboutme:"I am currently finishing Vanderbilt Coding Bootcamp to be a full-stack devloper. I have a strong work ethic and a drive to be the best I can be.",
+    aboutme:"Graduate of Vanderbilt Coding Bootcamp. Hard working and highly motivated. Great problem solver and a do not quit attitude. Self driven. Constantly learning and researching. Great asset to a team.",
     address:"Thompsons's Station, TN",
     website:"http://github.com/zpuckett",
+    email:"zpuckettdesign@gmail.com",
     
     
     skillsDescription:"My Skills include:",
