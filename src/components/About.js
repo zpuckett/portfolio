@@ -20,6 +20,10 @@ export default class About extends Component {
                   resumeData.aboutme
                }
                </p>
+               <a href="https://docs.google.com/document/d/1lx-KfKwqF0yeebxP5MGgV-tIi5GZhc6H9oGTDqjzy1I/edit?usp=sharing" target="_blank">
+                    <h2>Resume</h2>
+                    </a>
+                    <br/>
 
                <div className="row">
 
@@ -39,10 +43,6 @@ export default class About extends Component {
                     <br></br>
                     <a href="mailto:zpuckettdesign@gmail.com" target="_blank">
                     <span>{resumeData.email}</span>
-                    </a>
-                    <br></br>
-                    <a href="https://docs.google.com/document/d/1lx-KfKwqF0yeebxP5MGgV-tIi5GZhc6H9oGTDqjzy1I/edit?usp=sharing" target="_blank">
-                    Resume
                     </a>
        					   </p>
                   </div>
