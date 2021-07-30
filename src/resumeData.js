@@ -68,11 +68,17 @@ let resumeData = {
       url:"https://brookesemke.github.io/trivia/"
       },
       {
-      name: "Code-Quiz",
-      description: "Timed quiz to test knowledge of JavaScript",
-      imgurl: "images/portfolio/codequizz.gif",
-      url:"https://zpuckett.github.io/code-quiz/"
+      name: "Dokay",
+      description: "Mobile-First App for Networking Musicians and Artists.",
+      imgurl: "public/images/portfolio/dokay.gif",
+      url:"https://powerful-eyrie-95631.herokuapp.com/"
       },
+      {
+        name:"Weather Dashboard",
+        description:"Realtime Weather Forecast",
+        imgurl:"public/images/portfolio/weather.gif",
+        url:"https://weatherdashboardzp.netlify.app/"
+        },
 
     ],
   
