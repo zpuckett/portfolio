@@ -14,7 +14,7 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <td onClick={()=> window.open(`${item.url}`)}>Project Page
+                    <td onClick={()=> window.open(`${item.url}`)}>
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
