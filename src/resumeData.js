@@ -70,13 +70,13 @@ let resumeData = {
       {
       name: "Dokay",
       description: "Mobile-First App for Networking Musicians and Artists.",
-      imgurl: "public/images/portfolio/dokay.gif",
+      imgurl: "images/portfolio/dokay.gif",
       url:"https://powerful-eyrie-95631.herokuapp.com/"
       },
       {
         name:"Weather Dashboard",
         description:"Realtime Weather Forecast",
-        imgurl:"public/images/portfolio/weather.gif",
+        imgurl:"images/portfolio/weather.gif",
         url:"https://weatherdashboardzp.netlify.app/"
         },
 
