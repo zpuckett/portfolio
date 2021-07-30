@@ -482,7 +482,7 @@ ul#nav li.current a { color: rgb(60, 124, 243); }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-	opacity: 1;
+	opacity: 50;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
