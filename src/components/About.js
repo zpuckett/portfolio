@@ -21,7 +21,7 @@ export default class About extends Component {
                }
                </p>
                <a href="https://docs.google.com/document/d/1lx-KfKwqF0yeebxP5MGgV-tIi5GZhc6H9oGTDqjzy1I/edit?usp=sharing" target="_blank">
-                    <h2>Resume</h2>
+                    <h2>RESUME</h2>
                     </a>
                     <br/>
 
